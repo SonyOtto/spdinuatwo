@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">СТРОКИ ПОЗОВНОЇ ДАВНОСТІ ЦКУ</string>
+    <string name="textview">TextView</string>
+    <string name="main_spd">СТРОКИ ПОЗОВНОЇ ДАВНОСТІ</string>
+    <string name="main_spd2">ВІДПОВІДНО ДО ЧИННОГО ЗАКОНОДАВСТВА УКРАЇНИ</string>
+    <string name="button_text">ДІЗНАТИСЯ СТРОКИ!</string>
+    <string name="hint">ВВЕДІТЬ НОМЕР СТАТТІ</string>
+</resources>
