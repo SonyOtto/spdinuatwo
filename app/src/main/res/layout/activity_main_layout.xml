@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:contentDescription="@android:string/untitled"
         android:scaleType="centerCrop"
-        android:src="@drawable/backgrpound"
+        android:src="@drawable/background2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
