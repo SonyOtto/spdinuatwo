@@ -7,6 +7,8 @@ import android.view.View;
 
 public class MainLayoutActivity extends AppCompatActivity {
 
+    private View view;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -14,7 +16,7 @@ public class MainLayoutActivity extends AppCompatActivity {
     }
 
         /** Called when the user taps the next_button */
-        public void OpenNewView(View view) {
+        public void OpenSearchView(View view) {
             Intent intent = new Intent(this, SearchActivity.class);
             startActivity(intent);
         }

@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="184dp"
         android:text="@string/button_text"
+        android:onClick="OpenResultsView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.500"
@@ -37,17 +38,19 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:digits="1, 2, 3, 4, 5, 6, 7, 8, 9, 0"
         android:ems="10"
         android:hint="@string/hint"
         android:inputType="number"
         android:singleLine="true"
         android:textColorHint="#000000"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        tools:layout_editor_absoluteY="232dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView" />
 </android.support.constraint.ConstraintLayout>

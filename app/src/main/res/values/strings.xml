@@ -5,4 +5,7 @@
     <string name="main_spd2">ВІДПОВІДНО ДО ЧИННОГО ЗАКОНОДАВСТВА УКРАЇНИ</string>
     <string name="button_text">ДІЗНАТИСЯ СТРОКИ!</string>
     <string name="hint">ВВЕДІТЬ НОМЕР СТАТТІ</string>
+    <string name="backToMain">НА ГОЛОВНУ</string>
+    <string name="NamePart1">Схоже, що ваша ціль це: %s</string>
+    <string name="BasisTermsNote">Відповідно до статті %1$s ЦК України строк позивної давності становить %2$s рік(и). Додаткова інформація: %3$s.</string>
 </resources>
