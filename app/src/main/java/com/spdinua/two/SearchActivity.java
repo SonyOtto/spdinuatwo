@@ -17,6 +17,5 @@ public class SearchActivity extends AppCompatActivity {
     public void OpenResultsView(View view) {
         Intent intent = new Intent(this, ResultsActivity.class);
         startActivity(intent);
-        String message = "123";
     }
 }

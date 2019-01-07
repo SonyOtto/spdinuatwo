@@ -14,10 +14,18 @@ public class ResultsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
         Intent intent = getIntent();
-        String message = "123";
+        String nameDB = "nameDB";
+        String basisDB = "basisDB";
+        String termDB = "termDB";
+        String noteDB = "noteDB";
 
-        // Capture the layout's TextView and set the string as its text
+        // Displaying NAME parameter from DataBase
         TextView textView = findViewById(R.id.textView4);
-        textView.setText(message);
+        String text1 = getString(R.string.NamePart1, nameDB);
+        textView.setText(text1);
+        TextView textView2 = findViewById(R.id.textView6);
+        String text2 = getString(R.string.BasisTermsNote, basisDB, termDB, noteDB);
+        textView2.setText(text2);
+
     }
 }
