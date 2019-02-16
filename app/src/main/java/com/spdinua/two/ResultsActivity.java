@@ -26,10 +26,6 @@ public class ResultsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
         Intent intent = getIntent();
-        String nameDB = "nameDB";
-        String basisDB = "basisDB";
-        String termDB = "termDB";
-        String noteDB = "noteDB";
         String message = intent.getStringExtra(SearchActivity.EXTRA_MESSAGE);
 
         mTextViewResult = findViewById(R.id.textView4);
