@@ -1,12 +1,10 @@
 package com.spdinua.two;
 
 import android.content.Intent;
-import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -61,25 +59,14 @@ public class ResultsActivity extends AppCompatActivity {
                     public void run() {
                         try {
                             JSONObject json = new JSONObject(myResponse);
-                            System.out.println(json);
                             mTextViewResult.setText(getString(R.string.NamePart1,json.getString("name")));
                             mTextViewResult2.setText(getString(R.string.BasisTermsNote,json.getString("basis"),json.getString("term"),json.getString("note")));
                         } catch (JSONException e) {
                             e.printStackTrace();
-
                                                     }
                     };
                 });
             }
         });
-
-
-        // Displaying NAME, BASIS, TERM AND NOTE parameters from DataBase
-        //TextView textView = findViewById(R.id.textView4);
-        //String text1 = getString(R.string.NamePart1, nameDB);
-        //textView.setText(text1);
-        TextView textView2 = findViewById(R.id.textView6);
-        String text2 = getString(R.string.BasisTermsNote, basisDB, termDB, noteDB);
-        textView2.setText(text2);
     }
 }
