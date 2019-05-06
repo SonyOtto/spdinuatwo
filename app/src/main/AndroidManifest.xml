@@ -23,7 +23,8 @@
         </activity>
         <activity
             android:name=".SearchActivity"
-            android:parentActivityName=".MainLayoutActivity"></activity>
+            android:parentActivityName=".MainLayoutActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
         <activity
             android:name=".ResultsActivity"
             android:parentActivityName=".SearchActivity"></activity>
