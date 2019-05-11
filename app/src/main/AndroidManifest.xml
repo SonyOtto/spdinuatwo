@@ -15,19 +15,25 @@
         <meta-data
             android:name="com.google.android.gms.ads.ca-app-pub-3940256099942544/6300978111"
             android:value="ca-app-pub-3940256099942544/6300978111"/>
-        <activity android:name=".MainLayoutActivity">
+        <activity android:name=".MainLayoutActivity"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"
+
+                    />
             </intent-filter>
         </activity>
         <activity
             android:name=".SearchActivity"
             android:parentActivityName=".MainLayoutActivity"
-            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".ResultsActivity"
-            android:parentActivityName=".SearchActivity"></activity>
+            android:parentActivityName=".SearchActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
